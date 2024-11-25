@@ -90,7 +90,7 @@ const CreateNoticia = () => {
                                 name="Titulo"
                                 value={noticia.Titulo}
                                 onChange={handleChange}
-                                required
+                                //required
                             />
                         </Form.Group>
 
@@ -102,7 +102,7 @@ const CreateNoticia = () => {
                                 name="Descripcion"
                                 value={noticia.Descripcion}
                                 onChange={handleChange}
-                                required
+                                //required
                             />
                         </Form.Group>
 
@@ -113,7 +113,7 @@ const CreateNoticia = () => {
                                 name="Fecha"
                                 value={noticia.Fecha}
                                 onChange={handleChange}
-                                required
+                                //required
                             />
                         </Form.Group>
 

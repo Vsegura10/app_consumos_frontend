@@ -110,7 +110,7 @@ const EditNoticia = ({ noticia }) => {
                                 name="Titulo"
                                 value={noticias.Titulo}
                                 onChange={handleChangeEdit}
-                                required
+                                //required
                             />
                         </Form.Group>
                         <Form.Group className="mb-3">
@@ -121,7 +121,7 @@ const EditNoticia = ({ noticia }) => {
                                 value={noticias.Descripcion}
                                 onChange={handleChangeEdit}
                                 rows={3}
-                                required
+                                //required
                             />
                         </Form.Group>
                         <Form.Group className="mb-3">
